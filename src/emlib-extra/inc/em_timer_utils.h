@@ -2,7 +2,7 @@
 #define __SILICON_LABS_EM_TIMER_UTILS_H__
 
 #include "em_device.h"
-#if defined(TIMER_COUNT) && (TIMER_COUNT > 0)
+#if defined(TIMER_COUNT) && (TIMER_COUNT > 0) && defined(_SILICON_LABS_32B_SERIES_1)
 
 #include "em_timer.h"
 
